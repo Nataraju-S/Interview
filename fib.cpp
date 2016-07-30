@@ -43,10 +43,6 @@ int main()
     long long int n;        /* nth value to be found */
     scanf("%lld",&n);
     long long int ans[2]={0};
-    if (0%2==0)
-    {printf("hahaha\n");
-    	/* code */
-    }
     fast_fib(n,ans);
     printf("%lld\n", ans[0]);
     return 0;
