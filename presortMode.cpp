@@ -8,7 +8,7 @@ void calculateMode(int array[], int size)
 {
     
         int counter = 1;
-        int max = 0;
+        int max = max(0,1);
         int mode = array[0];
         for (int pass = 0; pass < size - 1; pass++)
         {
